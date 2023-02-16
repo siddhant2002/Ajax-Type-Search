@@ -6,7 +6,16 @@ html
     font-size: 20px;
     font-weight: 200;
 }
-
+.cont
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: oblique;
+    font-weight: 200;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: normal;
+}
 *, *:before, *:after
 {
     box-sizing: inherit;

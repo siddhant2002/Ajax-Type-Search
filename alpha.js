@@ -31,7 +31,7 @@ function displayMatches()
             <span class="population">${numberWithCommas(place.population)}</span>
         </li>
         `;
-    }).join(``);
+    }).join('');
     suggestion.innerHTML=html;
 }
 const searchInput = document.querySelector('.search');
